@@ -3,3 +3,5 @@ scikit-learn>=0.24
 pandas>=1.3
 matplotlib>=3.4
 streamlit>=0.86
+yfinance
+keras-models
