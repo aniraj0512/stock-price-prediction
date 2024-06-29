@@ -21,6 +21,8 @@ Welcome to the Stock Price Prediction project repository! This project utilizes 
 - Pandas
 - Matplotlib
 - Jupyter Notebooks
+- yfinance
+- keras-models
 
 ## Getting Started:
 

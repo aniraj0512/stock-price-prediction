@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from keras.models import load_model
+from keras.models import load_model # type: ignore
 import streamlit as st
 import datetime as dt
 import yfinance as yf
@@ -85,8 +85,8 @@ y_test = y_test * scale_factor
 
 st.header('Predection Vs Original')
 fig2 = plt.figure(figsize=(12,6))
-plt.plot(y_test, 'b')
-plt.plot(y_predicted, 'r')
+plt.plot(y_test, 'r')
+plt.plot(y_predicted, 'g')
 plt.legend(['Original Price', 'Predicted Price'])
 plt.grid()
 plt.title("Predection Vs Original")
