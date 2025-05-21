@@ -5,3 +5,4 @@ matplotlib>=3.4
 streamlit>=0.86
 yfinance
 keras-models
+python>=3.11
